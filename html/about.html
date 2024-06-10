@@ -12,10 +12,13 @@
     <div class="text-center my-4">
         <a href="../index.html"><img src="https://asandam.github.io/images/Asanda_Mehlo-logo2.png" alt="Logo" class="logo"></a>
     </div>
-    <div class="nav-icons sticky-top">
-        <a class="nav-link" href="./product.html"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
-          </svg></a>
+    <div class="nav-icons">
+        <div class="search-container">
+            <button class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+              </svg></button>
+              <input type="text" id="search-input" placeholder="Search..." style="display: none;">
+        </div>
         <a class="nav-link" href="./checkout.html">
             <button type="button" class="btn position-relative">
                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-basket2" viewBox="0 0 16 16">
@@ -33,7 +36,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light sticky-top">
         <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
@@ -48,8 +51,7 @@
         </div>
     </nav>
     <!-- main Section -->
-    <div id="main-section" class="container-fluid main-section">
-        <div class="row">
+    <div id="main-section" class=" row main-section">
             <div id="text" class="col-sm-12 main-text">
                 <h1>We make high-quality, handcrafted jewellery for over a decade, having the same passion & values! </h1>
                 <p>Asanda Jewellers is a family operated jewellery store based  in Cape Town. <br>
@@ -57,9 +59,8 @@
                     We offer a wide range of services. <br>
                     Whether you're shopping for a loved one or simply require a service on your jewellery, we got you covered!</p>
             </div>
-
-        </div>
     </div>
+
     <!-- Footer -->
     <footer class="text-center py-4">
         <p>Copyright &copy 2024 Jewellery Store by Asanda Mehlo</p>
